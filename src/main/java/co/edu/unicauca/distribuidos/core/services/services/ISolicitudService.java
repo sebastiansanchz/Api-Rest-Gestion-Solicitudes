@@ -1,0 +1,19 @@
+
+package co.edu.unicauca.distribuidos.core.services.services;
+
+import java.util.List;
+
+import co.edu.unicauca.distribuidos.core.services.DTO.SolicitudDTO;
+
+public interface ISolicitudService {
+
+	public List<SolicitudDTO> findAll();
+
+	public SolicitudDTO findById(Integer id);
+
+	public SolicitudDTO save(SolicitudDTO solicitud);
+
+	public SolicitudDTO update(Integer id, SolicitudDTO solicitud);
+
+	public boolean delete(Integer id);
+}
