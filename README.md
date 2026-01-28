@@ -9,7 +9,7 @@ Su objetivo es demostrar el uso correcto de **Spring Boot**, patrones de diseño
 ## 🚀 Accesos rápidos
 
 🔗 **API desplegada (Render):**  
-https://api-rest-gestion-solicitudes.onrender.com/api
+https://api-rest-gestion-solicitudes.onrender.com/api/solicitudes
 
 📘 **Documentación Swagger (OpenAPI):**  
 https://api-rest-gestion-solicitudes.onrender.com/swagger-ui.html
