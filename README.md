@@ -6,6 +6,33 @@ El proyecto fue construido con un enfoque académico–profesional, simulando un
 Su objetivo es demostrar el uso correcto de **Spring Boot**, patrones de diseño, una adecuada separación de responsabilidades y el uso de contenedorización con Docker.
 
 ---
+## 🚀 Accesos rápidos (reclutadores 👀)
+
+🔗 **API desplegada (Render):**  
+https://api-rest-gestion-solicitudes.onrender.com/api
+
+📘 **Documentación Swagger (OpenAPI):**  
+https://api-rest-gestion-solicitudes.onrender.com/swagger-ui.html
+
+---
+
+## ⚙️ Tecnologías utilizadas
+
+- Java 17
+- Spring Boot
+- Spring Web
+- Spring Data JPA
+- ModelMapper
+- Maven
+- Docker
+- Swagger / OpenAPI 3
+
+---
+
+## 📌 Estado del proyecto
+Proyecto funcional y desplegado, enfocado en demostrar buenas prácticas de desarrollo backend con Spring Boot.
+
+--- 
 
 ## 🐳 Contenedorización con Docker
 
@@ -77,17 +104,6 @@ src/main/java
 - **Inyección de dependencias**  
   Implementada mediante anotaciones de Spring (`@Service`, `@Repository`, `@Autowired`).
 
----
-
-## ⚙️ Tecnologías utilizadas
-
-- Java 17
-- Spring Boot
-- Spring Web
-- Spring Data JPA
-- ModelMapper
-- Maven
-- Docker
 
 ---
 
@@ -106,24 +122,5 @@ Base URL: La aplicación está desplegada como Web Service en Render, utilizando
 | DELETE | `/solicitudes/{id}` | Eliminar una solicitud |
 
 > Para ver el detalle completo de cada endpoint, parámetros y ejemplos, consulte **Swagger UI**.
-
----
-
-## Documentación de la API (Swagger / OpenAPI)
-
-La API cuenta con **documentación interactiva** generada automáticamente mediante **Swagger (OpenAPI 3)**, lo que permite:
-
-- Visualizar todos los endpoints disponibles
-- Probar las operaciones directamente desde el navegador
-- Consultar descripciones, parámetros y tipos de datos
-- Facilitar el consumo de la API por clientes externos
-
-### 🔗 Acceso a Swagger UI
-
-Documentación interactiva disponible en:
-
-https://api-rest-gestion-solicitudes.onrender.com/swagger-ui.html
-
-> La documentación se genera automáticamente a partir de las anotaciones del código (`@Operation`, `@Tag`, etc.).
 
 ---
