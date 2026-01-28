@@ -10,7 +10,6 @@ Su objetivo es demostrar el uso correcto de **Spring Boot**, patrones de diseño
 
 🔗 **API desplegada (Render):**  
 https://api-rest-gestion-solicitudes.onrender.com/api/solicitudes
-> Endpoint principal para consultar las solicitudes. Devuelve lista de solicitudes en JSON.
 
 📘 **Documentación Swagger (OpenAPI):**  
 https://api-rest-gestion-solicitudes.onrender.com/swagger-ui.html
