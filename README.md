@@ -3,7 +3,17 @@
 API REST desarrollada con **Spring Boot** para la gestión de solicitudes, aplicando una arquitectura por capas y buenas prácticas de desarrollo backend.  
 El proyecto fue construido con un enfoque académico–profesional, simulando un sistema real de creación, consulta, actualización y eliminación de solicitudes.
 
-Su objetivo es demostrar el uso correcto de **Spring Boot**, patrones de diseño y una adecuada separación de responsabilidades.
+Su objetivo es demostrar el uso correcto de **Spring Boot**, patrones de diseño, una adecuada separación de responsabilidades y el uso de contenedorización con Docker.
+
+---
+
+## 🐳 Contenedorización con Docker
+
+La aplicación está contenedorizada usando Docker, lo que permite:
+- Despliegue consistente en distintos entornos
+- Aislamiento de dependencias
+- Ejecución reproducible en local y producción
+- Despliegue como Web Service en plataformas cloud (Render)
 
 ---
 
@@ -77,23 +87,22 @@ src/main/java
 - Spring Data JPA
 - ModelMapper
 - Maven
+- Docker
 
 ---
 
-## 🔌 Endpoints
+## ▶️ Endpoints Y Ejecución del proyecto
+
+Base URL: La aplicación está desplegada como Web Service en Render, utilizando Docker.
+
+  https://api-rest-gestion-solicitudes.onrender.com/api
 
 | Método | Endpoint | Descripción |
 |------|--------|----|
-| GET | `/api/solicitudes` | Obtener todas las solicitudes |
-| GET | `/api/solicitudes/{id}` | Obtener solicitud por ID |
-| POST | `/api/solicitudes` | Crear una nueva solicitud |
-| PUT | `/api/solicitudes/{id}` | Actualizar una solicitud |
-| DELETE | `/api/solicitudes/{id}` | Eliminar una solicitud |
+| GET | `/solicitudes` | Obtener todas las solicitudes |
+| GET | `/solicitudes/{id}` | Obtener solicitud por ID |
+| POST | `/solicitudes` | Crear una nueva solicitud |
+| PUT | `/solicitudes/{id}` | Actualizar una solicitud |
+| DELETE | `/solicitudes/{id}` | Eliminar una solicitud |
 
 ---
-## ▶️ Ejecución del proyecto
-
-```
-mvn spring-boot:run
-```
-
