@@ -105,4 +105,25 @@ Base URL: La aplicación está desplegada como Web Service en Render, utilizando
 | PUT | `/solicitudes/{id}` | Actualizar una solicitud |
 | DELETE | `/solicitudes/{id}` | Eliminar una solicitud |
 
+> Para ver el detalle completo de cada endpoint, parámetros y ejemplos, consulte **Swagger UI**.
+
+---
+
+## Documentación de la API (Swagger / OpenAPI)
+
+La API cuenta con **documentación interactiva** generada automáticamente mediante **Swagger (OpenAPI 3)**, lo que permite:
+
+- Visualizar todos los endpoints disponibles
+- Probar las operaciones directamente desde el navegador
+- Consultar descripciones, parámetros y tipos de datos
+- Facilitar el consumo de la API por clientes externos
+
+### 🔗 Acceso a Swagger UI
+
+Documentación interactiva disponible en:
+
+https://api-rest-gestion-solicitudes.onrender.com/swagger-ui.html
+
+> La documentación se genera automáticamente a partir de las anotaciones del código (`@Operation`, `@Tag`, etc.).
+
 ---
