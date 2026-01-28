@@ -6,7 +6,7 @@ El proyecto fue construido con un enfoque académico–profesional, simulando un
 Su objetivo es demostrar el uso correcto de **Spring Boot**, patrones de diseño, una adecuada separación de responsabilidades y el uso de contenedorización con Docker.
 
 ---
-## 🚀 Accesos rápidos (reclutadores 👀)
+## 🚀 Accesos rápidos
 
 🔗 **API desplegada (Render):**  
 https://api-rest-gestion-solicitudes.onrender.com/api
